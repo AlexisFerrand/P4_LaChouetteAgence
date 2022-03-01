@@ -2288,7 +2288,11 @@ pre code {
 .col-xs-offset-0 {
     margin-left: 0
 }
-
+.col-sm-3 {
+    float: left;
+    width: 25%
+    
+}
 @media (min-width:768px) {
     .col-sm-1,
     .col-sm-10,
@@ -2331,9 +2335,7 @@ pre code {
     .col-sm-4 {
         width: 33.33333333%
     }
-    .col-sm-3 {
-        width: 25%
-    }
+    
     .col-sm-2 {
         width: 16.66666667%
     }
