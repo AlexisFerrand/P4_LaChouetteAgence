@@ -534,6 +534,7 @@ a[data-lightbox] {
     position: relative;
     display: block;
     text-align: center;
+    height: 75%;
 }
 
 a[data-lightbox]:hover::before {
@@ -1043,4 +1044,26 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+.forme-txt{
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+@media (max-width: 768px){
+    h2{
+        font-size: 20px;
+    }
+    .col-sm-12{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+p{
+    font-size: 16px;
+}
+.col-sm-12{
+    padding-bottom: 3%;
 }
